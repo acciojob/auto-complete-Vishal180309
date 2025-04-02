@@ -74,3 +74,18 @@ const AutoComplete = () => {
 };
 
 export default AutoComplete;
+
+import React from "react";
+import AutoComplete from "./AutoComplete";
+
+const App = () => {
+  return (
+    <div>
+      <h1 style={{ textAlign: "center" }}>AutoComplete Feature</h1>
+      <AutoComplete />
+    </div>
+  );
+};
+
+export default App;
+
